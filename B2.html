@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2</title>
+</head>
+<body>
+    <h1>Bài Tập ol-li</h1>
+    <ol>
+        <li>Phần Tử Số 1</li>
+        <li>Phần Tử Số 2</li>
+        <li>Phần Tử Số 3</li>
+        <li>Phần Tử Số 4</li>
+        <p>Nhận Xét: Các (li) mặc định tăng dần theo 1,2,3..</p>
+
+    </ol>
+</br>
+    <ol type="a">
+        <li  >Phần Tử Số 1</li>
+        <li>Phần Tử Số 2</li>
+        <li>Phần Tử Số 3</li>
+        <li>Phần Tử Số 4</li>
+        <p>Nhận Xét: Khi dùng (ol type=" định dạng tăng cho các (li))"</p>
+
+    </ol>
+    <h3>Địa chỉ tuyệt đối và địa chỉ tương đối</h3>
+    <i>Địa chỉ tuyệt đối, vd đường dẫn file: D:\Nam3_HK_2\Web</i>
+</br>
+    <i>Địa chỉ tương đối, vd https://www.facebook.com/</i>
+    <P>"./tên thư mục 1"_join vào thư mục 1"</P>
+
+    <p>"../tên thư mục 2"_thoát ra ngoài rồi join vào thư mục 2"</p>
+    <h3>Siêu Liên Kết</h3>
+</br>
+<h3>Bản Đồ Siêu Liên Kết Trên Hình Ảnh</h3>
+    <ol type="A">
+        <li>
+            <a href="./B1.html">
+                Bài 1
+
+            </a>
+        </li>
+        <li>
+            <a href="../BoTro/B3.html" >
+                Bài 3
+
+            </a>
+        </li>
+        <li>
+            <img src="../IMG/mô phỏng.jpg" usemap="#HinhMoPhong" alt="Hinh mo phong nha" /> 
+            <map name="HinhMoPhong">
+                <area shape="circle"  coords="88,120,60" href="../IMG/h4.jpg"/>
+                <area shape="circle"  coords="580,311,125" href="./B1.html"/>
+                <area shape="poly" coords="364,188,372,179,379,179,375,184,399,185,399,192,375,193,379,199,373,199" href="../IMG/biểu tượng.png"/>
+
+            </map>
+            
+        </li>
+        <li>
+            <img src="../IMG/h4.jpg" usemap="#Hinh4" alt="Hinh_Ban_Than" width="1000" height="1250"/>
+            <map name="Hinh4">
+                <area shape="circle" coords="500,900,500" href="../HTML/B1.html"/>
+
+            </map>
+        </li>
+    </ol>
+
+    </body>
+</body>
+</html>
